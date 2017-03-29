@@ -17,6 +17,7 @@
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
 }
+
 .button {
     background: none repeat scroll 0 0 #45ac9d;
 }
@@ -40,4 +41,41 @@
   font-weight: bold;
   color: #45ac9d;
   text-transform: uppercase;
+}
+
+
+/* Case Studies */
+
+article.case-study{
+  margin: 40px 0 0;
+}
+
+aside.case-study-sidebar {
+    float: left;
+    width: 300px;
+    margin: 0 50px 0 0;}
+
+div.case-study-images {
+  float: left;
+  width: 606px;
+}
+div.case-study-images {
+  margin-bottom: 50px;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+    width: 600px;
+    height: inherit;
+}
+h6 {
+    font-size: 14px;
+    line-height: 1.5;
+    color: gray;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+p {
+    margin-bottom: 24px;
+    margin-top: 24px;
 }
