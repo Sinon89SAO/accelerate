@@ -40,7 +40,6 @@ get_header(); ?>
 				<?php echo wp_get_attachment_image($image_1, $size); ?>
 			</figure>
  			<h3><a href="<?php the_permalink(); ?>" class="read-more-link"><?php the_title(); ?></a></h3>
-      <h3>My Test Case Study</h3>
 		  </li>
 
 			<?php endwhile; //end of the loop. ?>

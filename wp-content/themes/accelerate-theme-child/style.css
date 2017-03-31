@@ -66,19 +66,49 @@ div.case-study-images img{
   border: 1px solid #dddddd;
   width: inherit;
   height: inherit;
+}
+div.site-content {
+    width: 960px;
+    margin: auto;
 
 }
-h6 {
-    font-size: 14px;
-    line-height: 1.5;
-    color: gray;
-    margin: 0px;
-    font-family: Arial, sans-serif;
+div.site-content h4 {
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  }
+div.blog-post h4{
+  text-align: left;
+  padding-bottom: 10px;
+ padding-top: 80px;
 }
+
+h3 {
+  font-size: 16px;
+  line-height: 1.0909090909;
+  text-align: center;
+
+}
+
+h6 {
+   font-size: 14px;
+   line-height: 1.5;
+   color: gray;
+   margin: 0px;
+   font-family: Arial, sans-serif;
+}
+
 p {
     margin-bottom: 24px;
     margin-top: 24px;
 }
 ul.homepage-featured-work {
   list-style: none;
+  padding-top: 20px;
+}
+
+li.individual-featured-work {
+  display: inline-block;
+  padding-right: 10px;
 }
