@@ -103,12 +103,23 @@ p {
     margin-bottom: 24px;
     margin-top: 24px;
 }
+
 ul.homepage-featured-work {
   list-style: none;
   padding-top: 20px;
 }
 
+li.individual-featured-work:last-of-type {
+    margin-right: 0;
+}
+
 li.individual-featured-work {
   display: inline-block;
-  padding-right: 10px;
+  width: 31%;
+  margin-right: 3%;
+}
+
+li.individual-featured-work h3 {
+  font-size: 1.1rem;
+  font-weight: 400;
 }
