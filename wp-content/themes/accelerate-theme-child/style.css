@@ -123,3 +123,32 @@ li.individual-featured-work h3 {
   font-size: 1.1rem;
   font-weight: 400;
 }
+
+/*Contact Form*/
+
+
+.nf-field .nf-field-label label{
+  font-weight: normal;
+  font-size: .9em;
+}
+
+#nf-field-4 {
+  float: right;
+  color: #FFF;
+  font-family: 'Montserrat', serif;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #45AC9D;
+  padding: 15px 80px;
+}
+
+  div#content {
+   max-width: 700px;
+   width: 70%;
+   float: right;
+   padding-right: 50px;
+  }
+
+  textarea#nf-field-3 {
+    border: 1px solid #BFBFBF;
+}
