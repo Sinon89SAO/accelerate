@@ -221,6 +221,19 @@ h3 {
   padding-left: 7%;
 }
 
-#service-desc.col-lg-8 {
-  float: right;
+.individual-service:nth-child(even) .service-image {
+ float: right;
+ margin-left: 5%;
+}
+
+.individual-service:nth-child(odd) .service-image {
+ float: left;
+}
+
+.individual-service .service-desc {
+ float: left;
+}
+
+.individual-service {
+  overflow: auto;
 }

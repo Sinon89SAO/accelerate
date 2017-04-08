@@ -25,6 +25,7 @@ get_header(); ?>
         Here's a brief overview of our offered services</p>
  </div>
  </section>
+ <div class="site-content">
 
   <?php query_posts('post_type=services');
 
@@ -39,10 +40,10 @@ get_header(); ?>
       $size = "full";
       ?>
 
-      <div class="row">
-      <div class="col-lg-8" id="service-desc">
+      <div class="individual-service">
+      <div class="service-desc">
       		<h2><?php echo $service_title; ?></h2>
-      		<p><?php the_content(); ?> </p>
+      		<p><?php the_content(); ?></p>
       </div>
 
 
@@ -50,6 +51,7 @@ get_header(); ?>
         <?php if($service_image) {
            echo wp_get_attachment_image ($service_image, $size); ?>
         <?php } ?>
+      </div>
       </div>
 <?php endwhile; // end of the loop. ?>
 
@@ -63,6 +65,6 @@ get_header(); ?>
 	<li><a class="button" href="#">Contact Us</a></li>
 	</ul>
 </section>
-
+</div>
 
 <?php get_footer(); ?>
