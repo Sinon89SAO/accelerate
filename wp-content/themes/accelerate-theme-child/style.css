@@ -93,7 +93,7 @@ div.site-content h4 {
 div.blog-post h4{
   text-align: left;
   padding-bottom: 10px;
- padding-top: 80px;
+  padding-top: 80px;
 }
 
 h3 {
@@ -154,12 +154,15 @@ li.individual-featured-work h3 {
   padding: 15px 80px;
 }
 
-  div#content {
-   max-width: 700px;
-   width: 70%;
-   float: right;
-   padding-right: 150px;
-  }
+div#content {
+    max-width: 700px;
+    text-align: left;
+    padding-bottom: 200px;
+    width: 70%;
+    float: none;
+    padding-right: 10px;
+    padding-left: 150px;
+}
 
   textarea#nf-field-3 {
     border: 1px solid #BFBFBF;
@@ -188,7 +191,7 @@ li.individual-featured-work h3 {
   color: #43AE9E;
 }
 
-div.site-content h4 {
+div.site-content h3 {
   font-size: 16px;
   text-align: center;
   text-transform: uppercase;
@@ -255,4 +258,34 @@ div.site-content h4 {
 
 .individual-service .service-desc {
  float: left;
+}
+
+/*404 Page*/
+
+h1 {
+    font-weight: lighter;
+    font-family: 'montserrat';
+    font-size: 53px;
+    color: #555757;
+}
+
+div#main-content {
+ max-width: 700px;
+ text-align: center;
+ padding-bottom: 200px;
+ width: 70%;
+ float: none;
+ padding-right: 10px;
+ margin-top: 150px;
+}
+
+.page-content h2 {
+  font-size: 24px;
+  line-height: 1;
+  color: #45AC9D;
+}
+
+.page-content p span{
+  font-weight: bolder;
+  color: #45AC9D;
 }
