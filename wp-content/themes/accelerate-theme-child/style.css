@@ -167,8 +167,11 @@ li.individual-featured-work h3 {
 
 /*About Page*/
 
-.home-page {
-  background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+.about-page {
+  background: url("img/taxi-photo.jpg") no-repeat scroll right bottom / cover rgba(0, 0, 0, 0);
+  /*height: 240px;*/
+  margin: 0 0 80px;
+  padding: 120px 0;
 }
 
 .about-hero {
@@ -177,13 +180,11 @@ li.individual-featured-work h3 {
   color: white;
   text-align: center;
   width: 550px;
-  margin-left: 250px;
+  margin: 0 auto;
   font-weight: lighter;
-  margin-top: 190px;
-
 }
 
-span {
+.about-page span {
   color: #43AE9E;
 }
 
@@ -194,46 +195,64 @@ div.site-content h4 {
   padding-bottom: 20px;
 }
 
-.our-services p{
-  margin: 0 15%;
+.our-services p {
+  margin-bottom: 3em;
   text-align: center;
   font-size: 16px;
   line-height: 28px;
 }
 
-h3 {
-  font-size: 16px;
+.about-contact h3 {
+  font-size: 24px;
   line-height: 1.0909090909;
   text-align: center;
-  float: left;
+  padding-right: 40px;
 }
 
-.contact-button{
+.about-contact .contact-button{
   border-top: 1px solid #ccc;
-	margin: 0% 23%;
+	margin: 0 auto;
+  text-align: center;
 	clear: both;
 }
 
-.contact-button li{
+.about-contact .contact-button li{
   list-style-type: none;
   display: inline-block;
-  margin-top: 5%;
-  padding-left: 7%;
+  margin-top: 1.5em;
+}
+.about-contact .contact-button a {
+  display: inline-block;
+  padding: 10px 60px;
+}
+.individual-service {
+  overflow: auto;
+  margin-bottom: 2em;
+}
+
+.service-desc {
+  width: 70%;
+  float: left;
+  color: #3b3b3b;
+}
+.service-desc h2{
+  font-weight: lighter;
+}
+
+.service-image {
+  width: 25%;
 }
 
 .individual-service:nth-child(even) .service-image {
  float: right;
  margin-left: 5%;
-}
 
+}
 .individual-service:nth-child(odd) .service-image {
  float: left;
+ margin-right: 5%;
 }
 
 .individual-service .service-desc {
  float: left;
-}
-
-.individual-service {
-  overflow: auto;
 }

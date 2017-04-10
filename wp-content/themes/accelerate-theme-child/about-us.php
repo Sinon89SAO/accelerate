@@ -9,7 +9,7 @@
  */
 
 get_header(); ?>
-   <section class="home-page">
+   <section class="about-page">
    <div class="site-content">
 
     <?php while ( have_posts() ) : the_post();?>
@@ -41,30 +41,30 @@ get_header(); ?>
       ?>
 
       <div class="individual-service">
-      <div class="service-desc">
-      		<h2><?php echo $service_title; ?></h2>
-      		<p><?php the_content(); ?></p>
-      </div>
 
-
-     <div class="service-image">
-        <?php if($service_image) {
-           echo wp_get_attachment_image ($service_image, $size); ?>
-        <?php } ?>
-      </div>
-      </div>
+				<div class="service-image">
+					 <?php if($service_image) {
+							echo wp_get_attachment_image ($service_image, $size); ?>
+					 <?php } ?>
+         </div>
+      
+	      <div class="service-desc">
+	      		<h2><?php echo $service_title; ?></h2>
+	      		<p><?php the_content(); ?></p>
+        </div>
+     </div>
 <?php endwhile; // end of the loop. ?>
 
   <?php wp_reset_query(); ?>
 
-  <section>
+	<section class="about-contact">
 
-<ul class="contact-button">
+		<ul class="contact-button">
 
-	<li><h3>Interested in working with us?</h3></li>
-	<li><a class="button" href="#">Contact Us</a></li>
-	</ul>
-</section>
+			<li><h3>Interested in working with us?</h3></li>
+			<li><a class="button" href="#">Contact Us</a></li>
+			</ul>
+	</section>
 </div>
 
 <?php get_footer(); ?>
